@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tree-container {
+    text-align: center;
+}
+
+.tree {
+    background-image: url('pngtree-a-big-tree-with-green-leaf-on-transparent-background-genrative-ai-png-image_11931910.png');
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.apple {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#apple1 { top: 100px; left: 120px; }
+#apple2 { top: 100px; right: 120px; }
+#apple3 { bottom: 180px; left: 120px; }
+#apple4 { bottom: 180px; right: 120px; }
+
+.sentence-container {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.blank {
+    display: inline-block;
+    width: 100px;
+    border-bottom: 2px solid black;
+}
